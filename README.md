@@ -1,5 +1,5 @@
-djf#aemfaofna%
+In order to use this program, you should type in command line
+    java Program $config_file $text_file
 
-b#sjf_ansvo!
-
-cnhjrfyjvth3nxr
+ To compile program use
+    javac Program.java
