@@ -52,7 +52,7 @@ class Program {
         leftValue = nextLine.substring(0,equalityIndex).trim();
         rightValue=nextLine.substring(equalityIndex+1).trim();
         if(leftValue.length()==0||rightValue.length()==0){
-            throw new IllegalArgumentException("Config File Error: empty value at line "+ lineCounter);
+            throw new IllegalArgumentException("Config File Error: empty value at line "+ lineCounter+"\n");
         }
         valuesTable.put(leftValue,rightValue);
     }
